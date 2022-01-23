@@ -1,0 +1,226 @@
+.global_color2 {
+  color: #3f51b5;
+}
+h1 {
+  font-size: 3rem;
+  color: #2e2e2e;
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  font-size: 2rem;
+  color: #2e2e2e;
+  font-weight: 600 !important;
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-size: 1.5rem;
+  color: #2e2e2e;
+  font-weight: 600 !important;
+  font-family: "Montserrat", sans-serif;
+}
+h5 {
+  font-size: 1.2rem;
+  color: #847467;
+  font-family: "Poppins", sans-serif;
+}
+div {
+  font-family: "Poppins", sans-serif;
+}
+.global_line {
+  width: 40%;
+  padding-bottom: 0.5rem;
+  border-bottom: 5px solid #3f51b5;
+}
+.global_line_light {
+  width: 40%;
+  padding-bottom: 0.5rem;
+  border-bottom: 5px solid #ffffff;
+}
+.section_spacing_top {
+  padding-top: 15% !important;
+}
+.section_spacing_bottom {
+  padding-bottom: 15% !important;
+}
+.subheading {
+  font-size: 1.2rem;
+}
+/*Buttons style*/
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none !important;
+  color: inherit !important;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  cursor: pointer;
+  outline: none !important;
+}
+.my_btn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #3f51b5 !important;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border-radius: 0.4rem;
+  border: 2px solid #3f51b5;
+  box-shadow: inset 0 0 0 0 #3f51b5;
+  outline: none;
+}
+.my_btn:hover {
+  color: white !important;
+  box-shadow: inset 0 -100px 0 0 #3f51b5;
+}
+.my_btn:active {
+  transform: scale(0.9);
+  border-color: #3f51b5 !important;
+}
+/*Button light*/
+.my_btn_light {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff !important;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border-radius: 0.4rem;
+  border: 2px solid #ffffff;
+  box-shadow: inset 0 0 0 0 #ffffff;
+  outline: none;
+}
+.my_btn_light:hover {
+  color: #2e2e2e !important;
+  box-shadow: inset 0 -100px 0 0 #ffffff;
+}
+.my_btn_light:active {
+  transform: scale(0.9);
+  border-color: #3f51b5 !important;
+}
+.add_option_btn {
+  position: relative;
+  display: inline-block;
+  border: 2px solid #3f51b5;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #3f51b5 !important;
+  box-shadow: inset 0 0 0 0 #3f51b5;
+  background: transparent;
+  text-align: center;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+}
+.add_option_btn:hover {
+  color: white !important;
+  box-shadow: inset 0 -100px 0 0 #3f51b5;
+}
+.add_option_btn:active {
+  transform: scale(0.9);
+  border-color: #3f51b5 !important;
+}
+/*Header style*/
+.header_bg {
+  background-image: url(./images/img15.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header_text {
+  padding-top: 12%;
+  padding-bottom: 12%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: rgba(255, 255, 255, 0.877);
+}
+.offert_info {
+  padding: 2%;
+  color: #fff;
+  max-width: 50rem;
+  margin: auto;
+  margin-top: -4%;
+  z-index: 1;
+  position: relative;
+  background-color: #3f51b5;
+}
+.offert_icon {
+  font-size: 1.2rem;
+  color: #3f51b5;
+}
+/*About style*/
+.about_cursive_text {
+  font-style: italic;
+}
+/*overview style*/
+.check_icon {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.overview {
+  padding-bottom: 20rem;
+}
+.overview_img {
+  height: 25em;
+  max-width: 80rem;
+  margin: auto;
+  margin-top: -15em;
+  background-image: url(./images/img12.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*services style*/
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
+/*Total price style*/
+.total_price {
+  max-width: 25rem;
+}
+/*Modal*/
+.modal-header {
+  background-color: #3f51b5 !important;
+}
+/*Footer*/
+.footer_text {
+  max-width: 30rem;
+}
+/*Phone device*/
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  .subheading {
+    font-size: 1rem;
+  }
+  .overview_img {
+    height: 15em;
+  }
+}
